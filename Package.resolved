@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "HandyJSON",
-        "repositoryURL": "https://github.com/alibaba/HandyJSON.git",
+        "repositoryURL": "https://github.com/Miles-Matheson/HandyJSON.git",
         "state": {
-          "branch": null,
-          "revision": "dfab665e87f5dd56e16273222718ecd04a9a9d70",
-          "version": "5.0.1"
+          "branch": "master",
+          "revision": "de8a7126d2270da55cea3cb45dadffcfd002dbbe",
+          "version": null
         }
       },
       {
