@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/daltoniam/Starscream.git", .exact("3.1.1")),
+        .package(path: "Starscream"),
         .package(path: "HandyJSON")
         ],
     targets: [
@@ -26,5 +26,6 @@ let package = Package(
             name: "Main",
             dependencies: [
                 "ScClient",
-                ])        ]
+                ])
+        ]
 )
