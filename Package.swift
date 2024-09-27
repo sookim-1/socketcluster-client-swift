@@ -12,8 +12,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(path: "Starscream"),
-        .package(path: "HandyJSON")
+        .package(path: "LocalPackage/Starscream"),
+        .package(path: "LocalPackage/HandyJSON")
         ],
     targets: [
         .target(
